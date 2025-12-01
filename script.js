@@ -10,7 +10,6 @@ registerForm.addEventListener("submit", (e) => {
     password: document.getElementById("password").value
   };
 
-  // Save user data in local storage
   localStorage.setItem("user", JSON.stringify(user));
 
   alert("Registration successful! You can now log in.");
